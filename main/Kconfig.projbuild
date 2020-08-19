@@ -1,0 +1,9 @@
+menu "Example Configuration"
+    
+config PING_ADDR
+    string "Ping address"
+    	default "8.8.8.8"
+    	help
+		Address to ping.
+
+endmenu
